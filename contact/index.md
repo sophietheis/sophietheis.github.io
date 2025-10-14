@@ -7,21 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+You can find me at the IBRB at [University of Warwick](https://warwick.ac.uk).
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="sophie.theis@warwick.ac.uk"
+  link="sophie.theis@warwick.ac.uk"
 %}
 {%
   include button.html
@@ -36,23 +28,14 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/ibrb_new_drone.jpg"
+  caption="IBRB"
 %}
 
 {% endcapture %}
 
-{% capture col2 %}
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
+{% include cols.html col1=col1 %}
 
 {% include section.html dark=true %}
 

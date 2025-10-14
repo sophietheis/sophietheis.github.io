@@ -1,264 +1,191 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: https://doi.org/10.1101/2025.09.29.678560
+  title: Identification of optimal fluorophores for use in the Drosophila embryo
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+  - Bernardo Chapa-y-Lazo
+  - Thamarailingam Athilingam
+  - Prabhat Tiwari
+  - Prachi Pathak
+  - Shaobo Zhang
+  - Sophie Theis
+  - Timothy E. Saunders
+  publisher: BioRxiv
+  date: '2025-09-30'
+  link: https://doi.org/10.1101/2025.09.29.678560
+  preprint: true
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1101/2025.09.22.677369
+  title: A structural transition ensures robust formation of skeletal muscle
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+  - Mario A. Mendieta-Serrano
+  - Yiqi Hou
+  - Sophie Theis
+  - Thomas E. Hall
+  - Shannon E. Taylor
+  - Berta Verd
+  - Robert G. Parton
+  - Timothy E. Saunders
+  publisher: BioRxiv
+  date: '2025-09-22'
+  link: https://doi.org/10.1101/2025.09.22.677369
+  preprint: true
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2025.07.21.665949
+  title: Boundary constraints can determine pattern emergence
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+  - Yi Ting Loo
+  - Juliet Chen
+  - Ryan Harrison
+  - Tiago Rito
+  - Sophie Theis
+  - Guillaume Charras
+  - James Briscoe
+  - Timothy E. Saunders
+  publisher: BioRxiv
+  date: '2025-07-22'
+  link: https://doi.org/g9xr4h
+  preprint: true
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2025.04.13.648577
+  title: Stress anisotropy in 3D active curved structures
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+  - Yuting Lou
+  - Sophie Theis
+  - Jean-Francois Rupprecht
+  - Timothy E. Saunders
+  - Tetsuya Hiraiwa
+  publisher: BioRxiv
+  date: '2025-04-18'
+  link: https://doi.org/g96vdz
+  preprint: true
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pcbi.1013260
+  title: 'CellMet: Extracting 3D shape and topology metrics from confluent cells within
+    tissues'
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
+  - Sophie Theis
+  - Mario A. Mendieta-Serrano
+  - Bernardo Chapa-y-Lazo
+  - Juliet Chen
+  - Timothy E. Saunders
   publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  date: '2025-07-30'
+  link: https://doi.org/g96vdw
+  orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  preprint: false
+  image: images/paper_2025_cellmet.jpg
+- id: doi:10.1016/j.devcel.2023.07.017
+  title: DISSECT is a tool to segment and explore cell and tissue mechanics in highly
+    deformed 3D epithelia
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - Tatiana Merle
+  - Sophie Theis
+  - "Alain Kamgou\xE9"
+  - Emmanuel Martin
+  - Florian Sarron
+  - Guillaume Gay
+  - Emmanuel Farge
+  - Magali Suzanne
+  publisher: Developmental Cell
+  date: '2023-10-01'
+  link: https://doi.org/g96vd3
+  orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  preprint: false
+  image: images/paper_2023_dissect.jpg
+- id: doi:10.1103/PhysRevLett.130.108401
+  title: Curvature-Induced Cell Rearrangements in Biological Tissues
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Yuting Lou
+  - Jean-Francois Rupprecht
+  - Sophie Theis
+  - Tetsuya Hiraiwa
+  - Timothy E. Saunders
+  publisher: Physical Review Letters
+  date: '2023-03-06'
+  link: https://doi.org/g96vd4
+  orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
+  preprint: false
+  image: images/paper_2023_curvature.jpg
+- id: doi:10.1016/j.devcel.2022.02.020
+  title: Force-generating apoptotic cells orchestrate avian neural tube bending
+  authors:
+  - Daniela Roellig
+  - Sophie Theis
+  - Amsha Proag
+  - Guillaume Allio
+  - "Bertrand B\xE9naz\xE9raf"
+  - "J\xE9r\xF4me Gros"
+  - Magali Suzanne
+  publisher: Developmental Cell
+  date: '2022-03-01'
+  link: https://doi.org/g96vd5
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+  preprint: false
+  image: images/paper_2022_force.jpg
+- id: doi:10.21105/joss.02973
+  title: 'Tyssue: an epithelium simulation library'
+  authors:
+  - Sophie Theis
+  - Magali Suzanne
+  - Guillaume Gay
+  publisher: Journal of Open Source Software
+  date: '2021-06-07'
+  link: https://doi.org/g96vd6
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+  preprint: false
+  image: images/paper_2021_tyssue.jpg
+- id: doi:10.1016/j.devcel.2021.01.005
+  title: Arp2/3-dependent mechanical control of morphogenetic robustness in an inherently
+    challenging environment
+  authors:
+  - Emmanuel Martin
+  - Sophie Theis
+  - Guillaume Gay
+  - Bruno Monier
+  - "Christian Rouvi\xE8re"
+  - Magali Suzanne
+  publisher: Developmental Cell
+  date: '2021-03-01'
+  link: https://doi.org/g96vd7
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+  preprint: false
+  image: images/paper_2021_arp23.jpg
+- id: doi:10.1038/s41467-019-10720-0
+  title: "Mechanical impact of epithelial\u2212mesenchymal transition on epithelial\
+    \ morphogenesis in Drosophila"
+  authors:
+  - "M\xE9lanie Gracia"
+  - Sophie Theis
+  - Amsha Proag
+  - Guillaume Gay
+  - Corinne Benassayag
+  - Magali Suzanne
+  publisher: Nature Communications
+  date: '2019-07-04'
+  link: https://doi.org/gj7cgh
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+  preprint: false
+  image: images/paper_2019_mechanics.jpg

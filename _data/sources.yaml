@@ -1,23 +1,219 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+# Preprint
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: https://doi.org/10.1101/2025.09.29.678560
+  title: Identification of optimal fluorophores for use in the Drosophila embryo
+  authors:
+  - Bernardo Chapa-y-Lazo
+  - Thamarailingam Athilingam
+  - Prabhat Tiwari
+  - Prachi Pathak
+  - Shaobo Zhang
+  - Sophie Theis
+  - Timothy E. Saunders
+  preprint: true
+  publisher: BioRxiv
+  date: '2025-09-30'
+  link: https://doi.org/10.1101/2025.09.29.678560
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: https://doi.org/10.1101/2025.09.22.677369
+  title: A structural transition ensures robust formation of skeletal muscle
+  authors:
+  - Mario A. Mendieta-Serrano
+  - Yiqi Hou
+  - Sophie Theis
+  - Thomas E. Hall
+  - Shannon E. Taylor
+  - Berta Verd
+  - Robert G. Parton
+  - Timothy E. Saunders
+  preprint: true
+  publisher: BioRxiv
+  date: '2025-09-22'
+  link: https://doi.org/10.1101/2025.09.22.677369
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1101/2025.07.21.665949
+  title: Boundary constraints can determine pattern emergence
+  authors:
+  - Yi Ting Loo
+  - Juliet Chen
+  - Ryan Harrison
+  - Tiago Rito
+  - Sophie Theis
+  - Guillaume Charras
+  - James Briscoe
+  - Timothy E. Saunders
+  preprint: true
+  publisher: BioRxiv
+  date: '2025-07-22'
+  link: https://doi.org/g9xr4h
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1101/2025.04.13.648577
+  title: Stress anisotropy in 3D active curved structures
+  authors:
+  - Yuting Lou
+  - Sophie Theis
+  - Jean-Francois Rupprecht
+  - Timothy E. Saunders
+  - Tetsuya Hiraiwa
+  preprint: true
+  publisher: BioRxiv
+  date: '2025-04-18'
+  link: https://doi.org/g96vdz
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1101/2024.10.11.617843
+  title: 'CellMet: Extracting 3D shape metrics from cells and tissues'
+  authors:
+  - Sophie Theis
+  - Mario A Mendieta-Serrano
+  - Bernardo Chapa-y-Lazo
+  - Juliet Chen
+  - Timothy E. Saunders
+  publisher: BioRxiv
+  date: '2024-10-12'
+  link: https://doi.org/g96vd2
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+  remove: true
+  preprint: true
+
+# published
+- id: doi:10.1371/journal.pcbi.1013260
+  title: 'CellMet: Extracting 3D shape and topology metrics from confluent cells within
+    tissues'
+  authors:
+  - Sophie Theis
+  - Mario A. Mendieta-Serrano
+  - Bernardo Chapa-y-Lazo
+  - Juliet Chen
+  - Timothy E. Saunders
+  publisher: PLOS Computational Biology
+  date: '2025-07-30'
+  link: https://doi.org/g96vdw
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+  preprint: false
+  image : images/paper_2025_cellmet.jpg
+
+- id: doi:10.1016/j.devcel.2023.07.017
+  title: DISSECT is a tool to segment and explore cell and tissue mechanics in highly
+    deformed 3D epithelia
+  authors:
+  - Tatiana Merle
+  - Sophie Theis
+  - "Alain Kamgou\xE9"
+  - Emmanuel Martin
+  - Florian Sarron
+  - Guillaume Gay
+  - Emmanuel Farge
+  - Magali Suzanne
+  publisher: Developmental Cell
+  date: '2023-10-01'
+  link: https://doi.org/g96vd3
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+  preprint: false
+  image: images/paper_2023_dissect.jpg
+
+- id: doi:10.1103/PhysRevLett.130.108401
+  title: Curvature-Induced Cell Rearrangements in Biological Tissues
+  authors:
+  - Yuting Lou
+  - Jean-Francois Rupprecht
+  - Sophie Theis
+  - Tetsuya Hiraiwa
+  - Timothy E. Saunders
+  publisher: Physical Review Letters
+  date: '2023-03-06'
+  link: https://doi.org/g96vd4
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+  preprint: false
+  image: images/paper_2023_curvature.jpg
+
+- id: doi:10.1016/j.devcel.2022.02.020
+  title: Force-generating apoptotic cells orchestrate avian neural tube bending
+  authors:
+  - Daniela Roellig
+  - Sophie Theis
+  - Amsha Proag
+  - Guillaume Allio
+  - "Bertrand B\xE9naz\xE9raf"
+  - "J\xE9r\xF4me Gros"
+  - Magali Suzanne
+  publisher: Developmental Cell
+  date: '2022-03-01'
+  link: https://doi.org/g96vd5
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+  preprint: false
+  image: images/paper_2022_force.jpg
+
+- id: doi:10.21105/joss.02973
+  title: 'Tyssue: an epithelium simulation library'
+  authors:
+  - Sophie Theis
+  - Magali Suzanne
+  - Guillaume Gay
+  publisher: Journal of Open Source Software
+  date: '2021-06-07'
+  link: https://doi.org/g96vd6
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+  preprint: false
+  image: images/paper_2021_tyssue.jpg
+
+- id: doi:10.1016/j.devcel.2021.01.005
+  title: Arp2/3-dependent mechanical control of morphogenetic robustness in an inherently
+    challenging environment
+  authors:
+  - Emmanuel Martin
+  - Sophie Theis
+  - Guillaume Gay
+  - Bruno Monier
+  - "Christian Rouvi\xE8re"
+  - Magali Suzanne
+  publisher: Developmental Cell
+  date: '2021-03-01'
+  link: https://doi.org/g96vd7
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+  preprint: false
+  image: images/paper_2021_arp23.jpg
+
+- id: doi:10.1038/s41467-019-10720-0
+  title: "Mechanical impact of epithelial\u2212mesenchymal transition on epithelial\
+    \ morphogenesis in Drosophila"
+  authors:
+  - "M\xE9lanie Gracia"
+  - Sophie Theis
+  - Amsha Proag
+  - Guillaume Gay
+  - Corinne Benassayag
+  - Magali Suzanne
+  publisher: Nature Communications
+  date: '2019-07-04'
+  link: https://doi.org/gj7cgh
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: orcid.yaml
+  preprint: false
+  image: images/paper_2019_mechanics.jpg

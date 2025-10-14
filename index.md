@@ -1,21 +1,22 @@
 ---
 ---
 
-# Lab Website Template
+# .
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+I am a computational biologist, doing a PostDoc in [Saunders' lab](https://mechanochemistry.org/Saunders/MainSite/Saunders_lab_v4_3.htm) at the university of Warwick.
 
+<!--
 {%
   include button.html
   type="docs"
   link="https://greene-lab.gitbook.io/lab-website-template-docs"
 %}
+--!>
 {%
   include button.html
   type="github"
   text="On GitHub"
-  link="greenelab/lab-website-template"
+  link="sophietheis/"
 %}
 
 {% include section.html %}
