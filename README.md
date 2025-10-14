@@ -5,6 +5,6 @@
 
   # sophietheis's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[sophietheis.github.io](https://sophietheis.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
