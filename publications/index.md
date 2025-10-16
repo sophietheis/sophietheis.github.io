@@ -17,7 +17,7 @@ nav:
 
 ## Preprint
 {% include list.html data="citations" component="citation"
-filter="publisher.downcase.include?('biorxiv')" style="rich"%}
+filter="publisher.downcase.include?('biorxiv')" %}
 
 {% include section.html %}
 
