@@ -1,0 +1,31 @@
+.communication-container {
+  container-type: inline-size;
+}
+
+.communication {
+  display: flex;
+  margin: 20px 0;
+  border-radius: var(--rounded);
+  background: var(--background);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.communication-text {
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 100%;
+  height: min-content;
+  padding-left: 30px;
+  text-align: left;
+  overflow-wrap: break-word;
+  z-index: 0;
+}
+
+.communication-type {
+  display: block;
+}
+
+/*# sourceMappingURL=communication.css.map */
