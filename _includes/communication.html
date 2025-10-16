@@ -1,0 +1,21 @@
+{% if include.lookup %}
+  {% assign citation = site.data.citations
+    | where_exp: "citation",
+      "citation.id == include.lookup or citation.title contains include.lookup"
+    | first
+  %}
+{% else %}
+  {% assign citation = include %}
+{% endif %}
+
+<div class="communication-container">
+    <div class="communication">
+        <div class="communication-text">
+            <p><strong>{{ include.name }}</strong>
+            <span>{{ include.location }}</span>
+            <br>
+            <span>{{ include.type }} </span>
+            </p>
+        </div>
+    </div>
+</div>

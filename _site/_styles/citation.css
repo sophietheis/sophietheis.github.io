@@ -7,7 +7,6 @@
   margin: 20px 0;
   border-radius: var(--rounded);
   background: var(--background);
-  overflow: hidden;
   box-shadow: var(--shadow);
 }
 
