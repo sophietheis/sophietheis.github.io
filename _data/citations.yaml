@@ -1,22 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: https://doi.org/10.1101/2025.09.29.678560
-  title: Identification of optimal fluorophores for use in the Drosophila embryo
-  authors:
-  - Bernardo Chapa-y-Lazo
-  - Thamarailingam Athilingam
-  - Prabhat Tiwari
-  - Prachi Pathak
-  - Shaobo Zhang
-  - Sophie Theis
-  - Timothy E. Saunders
-  publisher: BioRxiv
-  date: '2025-09-30'
-  link: https://doi.org/10.1101/2025.09.29.678560
-  preprint: true
-  orcid: 0000-0003-4206-8153
-  plugin: sources.py
-  file: sources.yaml
 - id: https://doi.org/10.1101/2025.09.22.677369
   title: A structural transition ensures robust formation of skeletal muscle
   authors:
@@ -65,6 +48,22 @@
   date: '2025-04-18'
   link: https://doi.org/g96vdz
   preprint: true
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1091/mbc.E25-12-0600
+  title: Identification of optimal fluorophores for use in the Drosophila embryo
+  authors:
+  - Bernardo Chapa-y-Lazo
+  - Thamarailingam Athilingam
+  - Prabhat Tiwari
+  - Prachi Pathak
+  - Shaobo Zhang
+  - Sophie Theis
+  - Timothy E. Saunders
+  publisher: Molecular Biology of the Cell
+  date: '2026-04-01'
+  link: https://doi.org/10.1091/mbc.E25-12-0600
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
