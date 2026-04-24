@@ -53,8 +53,14 @@
   location: Vanderbilt
   type: talk
 
-- title: ""
+- title: "Quantifying 3D cell shape and cell organisation during myotome formation"
   name: Physics of life
   date: '2025-01-01'
   location: Harrogate
   type: talk
+
+- title: "Uncovering translation kinetics in a living embryo"
+  name: British Society of Developmental Biology
+  date: '2026-03-23'
+  location: Warwick
+  type: poster
