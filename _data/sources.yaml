@@ -11,6 +11,7 @@
   - Sophie Theis
   - Timothy E. Saunders
   preprint: true
+  remove: true
   publisher: BioRxiv
   date: '2025-09-30'
   link: https://doi.org/10.1101/2025.09.29.678560
@@ -90,6 +91,24 @@
   preprint: true
 
 # published
+
+- id: https://doi.org/10.1091/mbc.E25-12-0600
+  title: Identification of optimal fluorophores for use in the Drosophila embryo
+  authors:
+  - Bernardo Chapa-y-Lazo
+  - Thamarailingam Athilingam
+  - Prabhat Tiwari
+  - Prachi Pathak
+  - Shaobo Zhang
+  - Sophie Theis
+  - Timothy E. Saunders
+  publisher: Molecular Biology of the Cell
+  date: '2026-04-01'
+  link: https://doi.org/10.1091/mbc.E25-12-0600
+  orcid: 0000-0003-4206-8153
+  plugin: orcid.py
+  file: images/paper_2025_fluorophores.jpg
+
 - id: doi:10.1371/journal.pcbi.1013260
   title: 'CellMet: Extracting 3D shape and topology metrics from confluent cells within
     tissues'
