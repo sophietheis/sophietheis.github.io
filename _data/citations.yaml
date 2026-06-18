@@ -18,7 +18,23 @@
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/2025.07.21.665949
+- id: doi:10.1103/94b4-zsgb
+  title: Stress anisotropy in 3D active curved structures
+  authors:
+  - Yuting Lou
+  - Sophie Theis
+  - Jean-Francois Rupprecht
+  - Timothy E. Saunders
+  - Tetsuya Hiraiwa
+  publisher: Physical Review E
+  date: '2026-05-12'
+  link: https://journals.aps.org/pre/accepted/10.1103/94b4-zsgb
+  orcid: 0000-0003-4206-8153
+  plugin: sources.py
+  file: sources.yaml
+  preprint: false
+  image: images/paper_2023_curvature.jpg
+- id: doi:10.1242/dev.205849
   title: Boundary constraints can determine pattern emergence
   authors:
   - Yi Ting Loo
@@ -29,28 +45,14 @@
   - Guillaume Charras
   - James Briscoe
   - Timothy E. Saunders
-  publisher: BioRxiv
-  date: '2025-07-22'
-  link: https://doi.org/g9xr4h
-  preprint: true
+  publisher: Development
+  date: '2026-06-15'
+  link: https://journals.biologists.com/dev/article/doi/10.1242/dev.205849/371976/Boundary-constraints-can-determine-pattern?guestAccessKey=
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/2025.04.13.648577
-  title: Stress anisotropy in 3D active curved structures
-  authors:
-  - Yuting Lou
-  - Sophie Theis
-  - Jean-Francois Rupprecht
-  - Timothy E. Saunders
-  - Tetsuya Hiraiwa
-  publisher: BioRxiv
-  date: '2025-04-18'
-  link: https://doi.org/g96vdz
-  preprint: true
-  orcid: 0000-0003-4206-8153
-  plugin: sources.py
-  file: sources.yaml
+  preprint: false
+  image: images/paper_2026_boundary_constraints.jpg
 - id: https://doi.org/10.1091/mbc.E25-12-0600
   title: Identification of optimal fluorophores for use in the Drosophila embryo
   authors:
@@ -67,6 +69,8 @@
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
+  preprint: false
+  image: images/paper_2026_fluorophores.jpg
 - id: doi:10.1371/journal.pcbi.1013260
   title: 'CellMet: Extracting 3D shape and topology metrics from confluent cells within
     tissues'

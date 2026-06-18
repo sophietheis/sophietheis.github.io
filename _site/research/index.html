@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Projects | Sophie THEIS</title>
+<title>Research | Sophie THEIS</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Projects">
+<meta name="title" content="Research">
 <meta name="description" content="PostDoc in Tim Saunders' lab. .">
 
-<meta property="og:title" content="Projects">
+<meta property="og:title" content="Research">
 <meta property="og:site_title" content="Sophie THEIS">
 <meta property="og:description" content="PostDoc in Tim Saunders' lab. .">
 <meta property="og:url" content="http://0.0.0.0:4000">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Projects">
+<meta property="twitter:title" content="Research">
 <meta property="twitter:description" content="PostDoc in Tim Saunders' lab. .">
 <meta property="twitter:url" content="http://0.0.0.0:4000">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Projects",
+    "name": "Research",
     "description": "PostDoc in Tim Saunders&apos; lab. .",
-    "headline": "Projects",
+    "headline": "Research",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -475,8 +475,8 @@
       
     
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
+        <a href="/research/" data-tooltip="Software, datasets, and more">
+          Research
         </a>
       
     
@@ -513,8 +513,8 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="projects">
-<i class="icon fa-solid fa-flask-vial"></i>Projects</h1>
+    <h1 id="research">
+<i class="icon fa-solid fa-flask-vial"></i>Research</h1>
   </section>
 
   
@@ -528,7 +528,40 @@
   <size></size>
 -->
 
-<h2 id="vertex-modelling-of-morphogenesis">Vertex modelling of morphogenesis</h2>
+<h2 id="mechanical-forces-in-epithelial-folding-and-cell-extrusion">Mechanical forces in epithelial folding and cell extrusion</h2>
+
+<p>We focus on how dying or extruding cells actively shape the tissues around them, rather than being passive bystanders of morphogenesis. In <em>Drosophila</em>, we show that cells undergoing epithelial–mesenchymal transition generate an apico-basal force as they begin to delaminate, and that this force is a genuine driver of mesoderm invagination during gastrulation. Extending this idea to vertebrates, we find that apoptotic cells in the avian neural tube generate a comparable apico-basal pulling force before extrusion, and that this cumulative force contributes to the bending of the neural tube. Together, this work establishes apico-basal force generation by dying or transitioning cells as a conserved mechanical strategy in epithelial folding. We also show how the actin-regulating Arp2/3 complex contributes to the directional robustness of fold formation in the <em>Drosophila</em> leg, ensuring that mechanical “noise” from neighbouring tissues does not derail morphogenesis.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="geometry-curvature-and-three-dimensional-tissue-packing">Geometry, curvature, and three-dimensional tissue packing</h2>
+
+<p>Tissues are not flat, and we are interested in how curvature itself shapes cell behaviour. With collaborators, we develop a theoretical framework explaining how epithelial cells tilt and rearrange their neighbours across the apical-to-basal axis (a transition we term an AB-T1) in response to curvature gradients and pressure differences in curved tissues — a fundamental, previously unresolved question in 3D epithelial packing.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="open-source-computational-tools-for-tissue-mechanics">Open-source computational tools for tissue mechanics</h2>
+<h3 id="simulating-tissue-mechanics">Simulating tissue mechanics</h3>
 
 <div class="float">
   <figure class="figure">
@@ -549,12 +582,11 @@
 
 </div>
 
-<p>Tyssue : a python simulation library for vertex modelling
-Tissue remodelling is a complex process, integrating multiple inputs such as gene expression patterns, cell adherent properties and cell mechanics. It can be difficult to manipulate specific aspects genetically or capture morphogenetic events when the process is rapid. Critically, morphogenesis is inherently a mechanical process. Theoretical modelling of tissue formation can help us to understand how tissues acquire their shape and go beyond the limitation of experimental systems.</p>
+<p>To test mechanical hypotheses quantitatively, we need models as well as data. We create Tyssue, an open-source Python library for vertex-model simulations of epithelia, allowing forces, geometry, and topology to be simulated together in 2D and 3D. Tyssue is now used to model tissue mechanics across multiple labs, and is built to be extensible so that new mechanical behaviours can be added as the underlying biology demands.</p>
 
-<p>Motivated by this, we developed Tyssue, a vertex epithelium simulation library developed in Python. It is multiscale, and can include protein properties that lead to tissue shape change. Thanks to its modularity, we can simulate a wide range of processes. Further, the same mesh can be used to model different processes with different physical properties.</p>
+<h3 id="extracting-mechanics-and-shape-from-real-tissues">Extracting mechanics and shape from real tissues</h3>
 
-<p>I contribute to the development of this library that has been developed by Guillaume Gay from the UAR BioCampus in Montpellier.</p>
+<p>Simulating tissues is only half the problem — the other half is measuring them. We develop DISSECT, a tool to segment and analyse cell and tissue mechanics in highly deformed three-dimensional epithelia, and CellMet, a Python package that extracts 3D shape and topology metrics — including cell face properties and cell rearrangements — from dense tissue segmentations. Both tools are designed to be accessible to experimentalists without extensive coding backgrounds, turning raw 3D imaging data into quantitative mechanical readouts, and aim to make rigorous 3D quantification of tissue mechanics a standard part of the developmental biology toolkit.</p>
   </section>
 
   
@@ -568,32 +600,10 @@ Tissue remodelling is a complex process, integrating multiple inputs such as gen
   <size></size>
 -->
 
-<h2 id="modelling-fold-formation-in-drosophila-melanogaster">Modelling fold formation in Drosophila melanogaster</h2>
+<h2 id="imaging-tools-for-quantitative-developmental-biology">Imaging tools for quantitative developmental biology</h2>
 
-<div class="float">
-  <figure class="figure">
-  <a class="figure-image" aria-label="Sum-up of modelling mesoderm invagination.">
-    <img src="/images/projects/droso_mesoderm.png" style="
-        width: 400px;
-        max-height: unset;
-      " alt="Sum-up of modelling mesoderm invagination." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-    <figcaption class="figure-caption">
-      Sum-up of modelling mesoderm invagination.
-
-    </figcaption>
-  
-</figure>
-
-
-</div>
-
-<p>In drosophila imaginal tissues, we found that at the onset of Epithelial-Mesenchymal Transition (EMT), cells generate myosin II-dependent apico-basal forces while constricting their apex and pull down transiently the apical surface of the epithelium, before delaminating. During mesoderm invagination, we found similar apico-basal structure formed in cells which are under tension.</p>
-
-<p>To test the role and the contribution of such forces, we developed a bio-physical vertex model of the embryo apical junction network. This 3D model of the apical surface of cells of mesoderm invagination mimicks the cellular dynamics observed in the embryo.</p>
-
-<p>Simulation results showed that apical tension alone without apico-basal force only leads to a curved-shaped mesoderm, independently of the strength of apical contractility. Only in the presence of apico-basal tension does the mesoderm invaginate, forming the V-shape observed in vivo.</p>
+<p>We also work on benchmarking fluorescent protein performance in the living <em>Drosophila</em> embryo, comparing brightness, maturation time, and photostability across a panel of green and red fluorophores under matched genomic and imaging conditions — providing a practical reference for choosing fluorophores in live imaging experiments.
+We are interested in extending these computational and imaging tools to a broader range of three-dimensional tissues, and in using them to test how general these mechanical principles are across development.</p>
   </section>
 
   
@@ -606,29 +616,6 @@ Tissue remodelling is a complex process, integrating multiple inputs such as gen
   <dark></dark>
   <size></size>
 -->
-
-<div class="float" data-flip="">
-  <figure class="figure">
-  <a class="figure-image" aria-label="Sum-up of modelling leg fold formation with mechanical perturbators around.">
-    <img src="/images/projects/ModelLegFold.png" style="
-        width: 400px;
-        max-height: unset;
-      " alt="Sum-up of modelling leg fold formation with mechanical perturbators around." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-    <figcaption class="figure-caption">
-      Sum-up of modelling leg fold formation with mechanical perturbators around.
-
-    </figcaption>
-  
-</figure>
-
-
-</div>
-
-<p>Drosophila leg imaginal disc is an other example of fold formation where a subgroup of cells (here, apoptotic cells) help to form the fold. To test the role of apoptotic forces in folding, we elaborated a physical model based on the 2D vertex model. In the absence of the apoptotic dependent forces, the model indicates that the simple disappearance of 30 cells from a continuous ring-like domain is not sufficient to induce cell shape reorganisation and to create an invagination at the tissue level.
- We observed that developing leg folding occurs in a mechanically noisy environment. To test the impact of mechanical perturbations on fold formation, we implemented our previous model of developing leg folding and integrated random mechanical perturbations in close vicinity to the predicted fold domain, mimicking the mechanical noise observed in vivo. Interestingly, we found that mechanical noise appears sufficient to induce fold deviations in the simulations, mimicking the absence of Myosin planar polarity in the tissue. 
-We then wondered whether restoring myosin II polarity in a non-polarized tissue could rescue the defects of fold deviation. Although not feasible in vivo, we could address this question using in silico modeling, asking whether fold deviation caused by local mechanical perturbations could be rescued by the introduction of planar polarized junctional myosin II. In order to integrate myosin II planar polarity in the model, we mimicked myosin II planar polarity and the associated tension anisotropy by the attribution of different values of junctional tension depending on junction orientation in our model. Fold robustness was unaffected by the integration of tension polarity in the model in the absence of external perturbations, while interestingly, gradual increase of tissue polarity favors fold straightness and insensitivity to surrounding perturbations. We further quantified fold morphogenetic robustness in our theoretical model for different degrees of polarity. Interestingly, increasing polarity decreases the degree of deviation of the fold and thus decreases the variability in fold directionality, supporting the fact that the planar polarization of tissue tension favors mechanical isolation of fold formation, which ultimately ensures morphogenetic robustness.</p>
   </section>
 
 
@@ -682,8 +669,8 @@ We then wondered whether restoring myosin II polarity in a non-polarized tissue 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/sophietheis" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
-      <i class="icon fa-brands fa-github"></i>
+    <a class="button" href="https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=nElyMNAAAAAJ&hl=fr&oi=ao" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
       
     </a>
   </div>
@@ -697,8 +684,8 @@ We then wondered whether restoring myosin II polarity in a non-polarized tissue 
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://twitter.com/theis_sophie" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
-      <i class="icon fa-brands fa-twitter"></i>
+    <a class="button" href="https://github.com/sophietheis" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
       
     </a>
   </div>
@@ -708,7 +695,7 @@ We then wondered whether restoring myosin II polarity in a non-polarized tissue 
   </div>
 
   <div>
-    © 2025
+    © 2026
     Sophie THEIS
       |   Built with
     <a href="https://github.com/greenelab/lab-website-template">
