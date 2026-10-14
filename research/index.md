@@ -15,7 +15,7 @@ We focus on how dying or extruding cells actively shape the tissues around them,
 {% include section.html %}
 ## Geometry, curvature, and three-dimensional tissue packing
 
-Tissues are not flat, and we are interested in how curvature itself shapes cell behaviour. With collaborators, we develop a theoretical framework explaining how epithelial cells tilt and rearrange their neighbours across the apical-to-basal axis (a transition we term an AB-T1) in response to curvature gradients and pressure differences in curved tissues — a fundamental, previously unresolved question in 3D epithelial packing.
+Tissues are not flat, and we are interested in how curvature itself shapes cell behaviour. With collaborators, we develop a theoretical framework explaining how epithelial cells tilt and rearrange their neighbours across the apical-to-basal axis (a transition we term an AB-T1) in response to curvature gradients and pressure differences in curved tissues — a fundamental, previously unresolved question in 3D epithelial packing. Building on this, we develop a continuum thin-shell model that predicts how stress anisotropy between the apical and basal surfaces of a tissue emerges purely from the interplay of curvature and cell mechanics, generalising the theory to a wide range of axisymmetric geometries and connecting it directly to the cell-scale rearrangements seen in our vertex-model simulations. Together, this body of work provides a quantitative link between tissue-scale shape and the local mechanical rules governing cell packing in three dimensions.
 
 {% include section.html %}
 ## Open-source computational tools for tissue mechanics
