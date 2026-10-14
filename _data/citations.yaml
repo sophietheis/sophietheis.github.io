@@ -29,6 +29,7 @@
   publisher: Physical Review E
   date: '2026-05-12'
   link: https://journals.aps.org/pre/accepted/10.1103/94b4-zsgb
+  category: phys
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
@@ -48,6 +49,7 @@
   publisher: Development
   date: '2026-06-15'
   link: https://journals.biologists.com/dev/article/doi/10.1242/dev.205849/371976/Boundary-constraints-can-determine-pattern?guestAccessKey=
+  category: bio
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
@@ -66,6 +68,7 @@
   publisher: Molecular Biology of the Cell
   date: '2026-04-01'
   link: https://doi.org/10.1091/mbc.E25-12-0600
+  category: phys
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
@@ -83,6 +86,7 @@
   publisher: PLOS Computational Biology
   date: '2025-07-30'
   link: https://doi.org/g96vdw
+  category: tools
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
@@ -103,6 +107,7 @@
   publisher: Developmental Cell
   date: '2023-10-01'
   link: https://doi.org/g96vd3
+  category: tools
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
@@ -119,6 +124,7 @@
   publisher: Physical Review Letters
   date: '2023-03-06'
   link: https://doi.org/g96vd4
+  category: phys
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
@@ -137,6 +143,7 @@
   publisher: Developmental Cell
   date: '2022-03-01'
   link: https://doi.org/g96vd5
+  category: bio
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
@@ -151,6 +158,7 @@
   publisher: Journal of Open Source Software
   date: '2021-06-07'
   link: https://doi.org/g96vd6
+  category: tools
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
@@ -169,6 +177,7 @@
   publisher: Developmental Cell
   date: '2021-03-01'
   link: https://doi.org/g96vd7
+  category: bio
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml
@@ -187,6 +196,7 @@
   publisher: Nature Communications
   date: '2019-07-04'
   link: https://doi.org/gj7cgh
+  category: bio
   orcid: 0000-0003-4206-8153
   plugin: sources.py
   file: sources.yaml

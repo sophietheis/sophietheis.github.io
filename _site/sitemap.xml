@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://0.0.0.0:4000/communications/</loc>
-<lastmod>2025-10-16T13:04:55+00:00</lastmod>
+<lastmod>2026-10-14T13:24:08+00:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/publications/</loc>
@@ -14,11 +14,11 @@
 </url>
 <url>
 <loc>http://0.0.0.0:4000/tools/</loc>
-<lastmod>2026-10-14T13:21:50+00:00</lastmod>
+<lastmod>2026-10-14T13:24:08+00:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/research/</loc>
-<lastmod>2026-06-18T15:49:21+00:00</lastmod>
+<lastmod>2026-10-14T13:24:08+00:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/</loc>

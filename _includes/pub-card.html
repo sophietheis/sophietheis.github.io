@@ -1,0 +1,16 @@
+{% comment %}
+  Publication card used on the Publications page.
+  d: a citation from _data/citations.yaml
+  year: optional, shows a year bubble (timeline only)
+{% endcomment %}
+
+{% assign d = include.d %}
+{% assign cat = d.category | default: "bio" %}
+<div class="entry {{ cat }}">
+  {% if include.year %}<div class="year-bubble">{{ include.year }}</div>{% endif %}
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="{{ d.link }}" target="_blank" rel="noopener">{{ d.title }}</a></h3>
+    <div class="meta">{{ d.publisher }} · {{ d.date | date: "%Y" }}</div>
+    <div class="authors">{% for a in d.authors %}{% if a contains "Theis" %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+  </div>
+</div>

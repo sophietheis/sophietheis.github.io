@@ -32,6 +32,7 @@
   - Timothy E. Saunders
   - Tetsuya Hiraiwa
   publisher: Physical Review E
+  category: phys
   date: '2026-05-12'
   link: https://journals.aps.org/pre/accepted/10.1103/94b4-zsgb
   orcid: 0000-0003-4206-8153
@@ -53,6 +54,7 @@
   - James Briscoe
   - Timothy E. Saunders
   publisher: Development
+  category: bio
   date: '2026-06-15'
   link: https://journals.biologists.com/dev/article/doi/10.1242/dev.205849/371976/Boundary-constraints-can-determine-pattern?guestAccessKey=
   orcid: 0000-0003-4206-8153
@@ -73,6 +75,7 @@
   - Sophie Theis
   - Timothy E. Saunders
   publisher: Molecular Biology of the Cell
+  category: phys
   date: '2026-04-01'
   link: https://doi.org/10.1091/mbc.E25-12-0600
   orcid: 0000-0003-4206-8153
@@ -91,6 +94,7 @@
   - Juliet Chen
   - Timothy E. Saunders
   publisher: PLOS Computational Biology
+  category: tools
   date: '2025-07-30'
   link: https://doi.org/g96vdw
   orcid: 0000-0003-4206-8153
@@ -112,6 +116,7 @@
   - Emmanuel Farge
   - Magali Suzanne
   publisher: Developmental Cell
+  category: tools
   date: '2023-10-01'
   link: https://doi.org/g96vd3
   orcid: 0000-0003-4206-8153
@@ -129,6 +134,7 @@
   - Tetsuya Hiraiwa
   - Timothy E. Saunders
   publisher: Physical Review Letters
+  category: phys
   date: '2023-03-06'
   link: https://doi.org/g96vd4
   orcid: 0000-0003-4206-8153
@@ -148,6 +154,7 @@
   - "J\xE9r\xF4me Gros"
   - Magali Suzanne
   publisher: Developmental Cell
+  category: bio
   date: '2022-03-01'
   link: https://doi.org/g96vd5
   orcid: 0000-0003-4206-8153
@@ -163,6 +170,7 @@
   - Magali Suzanne
   - Guillaume Gay
   publisher: Journal of Open Source Software
+  category: tools
   date: '2021-06-07'
   link: https://doi.org/g96vd6
   orcid: 0000-0003-4206-8153
@@ -182,6 +190,7 @@
   - "Christian Rouvi\xE8re"
   - Magali Suzanne
   publisher: Developmental Cell
+  category: bio
   date: '2021-03-01'
   link: https://doi.org/g96vd7
   orcid: 0000-0003-4206-8153
@@ -201,6 +210,7 @@
   - Corinne Benassayag
   - Magali Suzanne
   publisher: Nature Communications
+  category: bio
   date: '2019-07-04'
   link: https://doi.org/gj7cgh
   orcid: 0000-0003-4206-8153
