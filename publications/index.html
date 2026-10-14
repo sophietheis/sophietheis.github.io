@@ -481,6 +481,12 @@
       
     
       
+        <a href="/tools/" data-tooltip="Software, datasets, and more">
+          Tools
+        </a>
+      
+    
+      
         <a href="/communications/" data-tooltip="Conference, poster talk">
           Communications
         </a>
@@ -528,45 +534,124 @@
   <size></size>
 -->
 
+<style>
+  :root {
+    --pub-bio:   #B4E4D6;
+    --pub-tools: #FFCA88;
+    --pub-phys:  #f89c74;
+  
+  }
+/*  style="text-align:center;" */
+  /* Legend */
+  .legend {display: flex; flex-wrap: wrap; gap: .75rem; margin-bottom: 2rem; }
+  .legend-item { display: flex; align-items: center; gap: .4rem; font-size: .85rem; font-weight: 600; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+
+  /* Thematic grid */
+  .theme-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem; margin-bottom: 2.5rem; }
+  .theme-card { background: var(--background); border-radius: 10px; padding: 1.1rem 1.2rem;
+    box-shadow: 0 1px 6px #0001; border-top: 5px solid; }
+  .theme-card h4 { font-size: .95rem; font-weight: 700; margin: 0 0 .5rem; }
+  .theme-card ul { list-style: none; padding: 0; margin: 0; }
+  .theme-card ul li { font-size: .82rem; color: var(--dark-gray); padding: .2rem 0;
+    border-bottom: 1px solid #f0f0f0; }
+  .theme-card ul li:last-child { border-bottom: none; }
+  .theme-card.bio   { border-color: var(--pub-bio); }
+  .theme-card.tools { border-color: var(--pub-tools); }
+  .theme-card.phys  { border-color: var(--pub-phys); }
+  .theme-card.dev   { border-color: var(--pub-dev); }
+
+  /* Timeline */
+  .timeline { position: relative; padding-left: 56px; margin-bottom: 3rem; }
+  .timeline::before { content: ''; position: absolute; left: 22px; top: 0; bottom: 0;
+    width: 3px; background: #e0e0ef; border-radius: 2px; }
+
+  .entry { position: relative; margin-bottom: 1.5rem; }
+  .year-bubble { position: absolute; left: -56px; width: 44px; height: 44px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .72rem; font-weight: 700; color: #fff; background: #bdbdbd; }
+  .t-card { background: var(--background); border-radius: 10px; padding: 1rem 1.2rem;
+    box-shadow: 0 1px 6px #0001; border-left: 4px solid; }
+  .t-card h3 { font-size: .95rem; font-weight: 700; margin: 0 0 .25rem; line-height: 1.35; }
+  .t-card h3 a { color: inherit; text-decoration: none; }
+  .t-card .meta { font-size: .8rem; color: var(--dark-gray); margin-bottom: .35rem; }
+  .t-card .badge { display: inline-block; font-size: .72rem; font-weight: 600;
+    padding: .15rem .55rem; border-radius: 20px; color: #fff; }
+  .t-card .authors { font-size: .78rem; color: var(--dark-gray); margin-top: .4rem; }
+  .me { font-weight: 700; color: var(--text); }
+
+  .entry.bio   .badge { background: var(--pub-bio); }
+  .entry.bio   .t-card { border-color: var(--pub-bio); }
+  .entry.tools .badge { background: var(--pub-tools); }
+  .entry.tools .t-card { border-color: var(--pub-tools); }
+  .entry.phys  .badge { background: var(--pub-phys); }
+  .entry.phys  .t-card { border-color: var(--pub-phys); }
+</style>
+
+<ul></ul>
+<div class="legend">
+  <div class="legend-item">
+<div class="dot" style="background:var(--pub-bio)"></div> Developmental biology</div>
+  <div class="legend-item">
+<div class="dot" style="background:var(--pub-tools)"></div> Computational tools </div>
+  <div class="legend-item">
+<div class="dot" style="background:var(--pub-phys)"></div> Theory &amp; imaging </div>
+</div>
+
+<div class="theme-grid">
+
+  <div class="theme-card bio">
+    <h4 style="text-align:center;">🔬 Developmental biology</h4>
+    <ul>
+      <li>Boundary constraints &amp; patterning (2026)</li>
+      <li>Apoptosis in neural tube bending (2022)</li>
+      <li>Arp2/3 morphogenetic robustness (2021)</li>
+      <li>EMT mechanics in Drosophila (2019)</li>
+    </ul>
+  </div>
+
+  <div class="theme-card tools">
+    <h4 style="text-align:center;">🛠 Computational tools</h4>
+    <ul>
+      <li>CellMet — 3D shape metrics (2025)</li>
+      <li>DISSECT — 3D segmentation (2023)</li>
+      <li>Tyssue — epithelium simulation (2021)</li>
+    </ul>
+  </div>
+
+  <div class="theme-card phys">
+    <h4 style="text-align:center;">📐 Theory and imaging</h4>
+    <ul>
+      <li>Fluorophore optimisation in Drosophila (2026)</li>
+      <li>Stress anisotropy in 3D curved tissue (2026)</li>
+      <li>Curvature-driven cell rearrangements (2023)</li>
+    </ul>
+  </div>
+
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
 <h2 id="highlighted">Highlighted</h2>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g96vdw" class="citation-image" aria-label="CellMet: Extracting 3D shape and topology metrics from confluent cells within tissues">
-        <img src="/images/paper_2025_cellmet.jpg" alt="CellMet: Extracting 3D shape and topology metrics from confluent cells within tissues" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/g96vdw" class="citation-title">
-        CellMet: Extracting 3D shape and topology metrics from confluent cells within tissues
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Sophie Theis, Mario A. Mendieta-Serrano, Bernardo Chapa-y-Lazo, Juliet Chen, Timothy E. Saunders
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">PLOS Computational Biology</span>
-         · 
-        <span class="citation-date">30 Jul 2025</span>
-         · 
-        <span class="citation-id">doi:10.1371/journal.pcbi.1013260</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry tools">
+  
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/g96vdw" target="_blank" rel="noopener">CellMet: Extracting 3D shape and topology metrics from confluent cells within tissues</a></h3>
+    <div class="meta">PLOS Computational Biology · 2025</div>
+    <div class="authors">
+<span class="me">Sophie Theis</span>, Mario A. Mendieta-Serrano, Bernardo Chapa-y-Lazo, Juliet Chen, Timothy E. Saunders</div>
   </div>
 </div>
   </section>
@@ -584,33 +669,12 @@
 
 <h2 id="preprint">Preprint</h2>
 
-<div class="citation-container">
-  <div class="citation">
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/10.1101/2025.09.22.677369" class="citation-title">
-        A structural transition ensures robust formation of skeletal muscle
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Mario A. Mendieta-Serrano, Yiqi Hou, Sophie Theis, Thomas E. Hall, Shannon E. Taylor, Berta Verd, Robert G. Parton, Timothy E. Saunders
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">BioRxiv</span>
-         · 
-        <span class="citation-date">22 Sep 2025</span>
-         · 
-        <span class="citation-id">https://doi.org/10.1101/2025.09.22.677369</span>
-      </div>
-
-      
-    </div>
+<div class="entry bio">
+  
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/10.1101/2025.09.22.677369" target="_blank" rel="noopener">A structural transition ensures robust formation of skeletal muscle</a></h3>
+    <div class="meta">BioRxiv · 2025</div>
+    <div class="authors">Mario A. Mendieta-Serrano, Yiqi Hou, <span class="me">Sophie Theis</span>, Thomas E. Hall, Shannon E. Taylor, Berta Verd, Robert G. Parton, Timothy E. Saunders</div>
   </div>
 </div>
   </section>
@@ -628,416 +692,187 @@
 
 <h2 id="all">All</h2>
 
-<h3 id="2026">2026</h3>
+<div class="timeline">
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://journals.biologists.com/dev/article/doi/10.1242/dev.205849/371976/Boundary-constraints-can-determine-pattern?guestAccessKey=" class="citation-image" aria-label="Boundary constraints can determine pattern emergence">
-        <img src="/images/paper_2026_boundary_constraints.jpg" alt="Boundary constraints can determine pattern emergence" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://journals.biologists.com/dev/article/doi/10.1242/dev.205849/371976/Boundary-constraints-can-determine-pattern?guestAccessKey=" class="citation-title">
-        Boundary constraints can determine pattern emergence
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Yi Ting Loo, Juliet Chen, Ryan Harrison, Tiago Rito, Sophie Theis, Guillaume Charras, James Briscoe, Timothy E. Saunders
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Development</span>
-         · 
-        <span class="citation-date">15 Jun 2026</span>
-         · 
-        <span class="citation-id">doi:10.1242/dev.205849</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry bio">
+  <div class="year-bubble">2026</div>
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://journals.biologists.com/dev/article/doi/10.1242/dev.205849/371976/Boundary-constraints-can-determine-pattern?guestAccessKey=" target="_blank" rel="noopener">Boundary constraints can determine pattern emergence</a></h3>
+    <div class="meta">Development · 2026</div>
+    <div class="authors">Yi Ting Loo, Juliet Chen, Ryan Harrison, Tiago Rito, <span class="me">Sophie Theis</span>, Guillaume Charras, James Briscoe, Timothy E. Saunders</div>
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
     
-      <a href="https://journals.aps.org/pre/accepted/10.1103/94b4-zsgb" class="citation-image" aria-label="Stress anisotropy in 3D active curved structures">
-        <img src="/images/paper_2023_curvature.jpg" alt="Stress anisotropy in 3D active curved structures" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+  
+
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://journals.aps.org/pre/accepted/10.1103/94b4-zsgb" class="citation-title">
-        Stress anisotropy in 3D active curved structures
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Yuting Lou, Sophie Theis, Jean-Francois Rupprecht, Timothy E. Saunders, Tetsuya Hiraiwa
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Physical Review E</span>
-         · 
-        <span class="citation-date">12 May 2026</span>
-         · 
-        <span class="citation-id">doi:10.1103/94b4-zsgb</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry phys">
+  
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://journals.aps.org/pre/accepted/10.1103/94b4-zsgb" target="_blank" rel="noopener">Stress anisotropy in 3D active curved structures</a></h3>
+    <div class="meta">Physical Review E · 2026</div>
+    <div class="authors">Yuting Lou, <span class="me">Sophie Theis</span>, Jean-Francois Rupprecht, Timothy E. Saunders, Tetsuya Hiraiwa</div>
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/10.1091/mbc.E25-12-0600" class="citation-image" aria-label="Identification of optimal fluorophores for use in the Drosophila embryo">
-        <img src="/images/paper_2026_fluorophores.jpg" alt="Identification of optimal fluorophores for use in the Drosophila embryo" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+  
+
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://doi.org/10.1091/mbc.E25-12-0600" class="citation-title">
-        Identification of optimal fluorophores for use in the Drosophila embryo
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Bernardo Chapa-y-Lazo, Thamarailingam Athilingam, Prabhat Tiwari, Prachi Pathak, Shaobo Zhang, Sophie Theis, Timothy E. Saunders
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Molecular Biology of the Cell</span>
-         · 
-        <span class="citation-date">01 Apr 2026</span>
-         · 
-        <span class="citation-id">https://doi.org/10.1091/mbc.E25-12-0600</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry phys">
+  
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/10.1091/mbc.E25-12-0600" target="_blank" rel="noopener">Identification of optimal fluorophores for use in the Drosophila embryo</a></h3>
+    <div class="meta">Molecular Biology of the Cell · 2026</div>
+    <div class="authors">Bernardo Chapa-y-Lazo, Thamarailingam Athilingam, Prabhat Tiwari, Prachi Pathak, Shaobo Zhang, <span class="me">Sophie Theis</span>, Timothy E. Saunders</div>
   </div>
 </div>
 
-<h3 id="2025">2025</h3>
+  
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g96vdw" class="citation-image" aria-label="CellMet: Extracting 3D shape and topology metrics from confluent cells within tissues">
-        <img src="/images/paper_2025_cellmet.jpg" alt="CellMet: Extracting 3D shape and topology metrics from confluent cells within tissues" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://doi.org/g96vdw" class="citation-title">
-        CellMet: Extracting 3D shape and topology metrics from confluent cells within tissues
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Sophie Theis, Mario A. Mendieta-Serrano, Bernardo Chapa-y-Lazo, Juliet Chen, Timothy E. Saunders
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">PLOS Computational Biology</span>
-         · 
-        <span class="citation-date">30 Jul 2025</span>
-         · 
-        <span class="citation-id">doi:10.1371/journal.pcbi.1013260</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry tools">
+  <div class="year-bubble">2025</div>
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/g96vdw" target="_blank" rel="noopener">CellMet: Extracting 3D shape and topology metrics from confluent cells within tissues</a></h3>
+    <div class="meta">PLOS Computational Biology · 2025</div>
+    <div class="authors">
+<span class="me">Sophie Theis</span>, Mario A. Mendieta-Serrano, Bernardo Chapa-y-Lazo, Juliet Chen, Timothy E. Saunders</div>
   </div>
 </div>
 
-<h3 id="2023">2023</h3>
-
-<div class="citation-container">
-  <div class="citation">
     
-      <a href="https://doi.org/g96vd3" class="citation-image" aria-label="DISSECT is a tool to segment and explore cell and tissue mechanics in highly deformed 3D epithelia">
-        <img src="/images/paper_2023_dissect.jpg" alt="DISSECT is a tool to segment and explore cell and tissue mechanics in highly deformed 3D epithelia" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+  
+
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://doi.org/g96vd3" class="citation-title">
-        DISSECT is a tool to segment and explore cell and tissue mechanics in highly deformed 3D epithelia
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Tatiana Merle, Sophie Theis, Alain Kamgoué, Emmanuel Martin, Florian Sarron, Guillaume Gay, Emmanuel Farge, Magali Suzanne
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Developmental Cell</span>
-         · 
-        <span class="citation-date">01 Oct 2023</span>
-         · 
-        <span class="citation-id">doi:10.1016/j.devcel.2023.07.017</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry tools">
+  <div class="year-bubble">2023</div>
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/g96vd3" target="_blank" rel="noopener">DISSECT is a tool to segment and explore cell and tissue mechanics in highly deformed 3D epithelia</a></h3>
+    <div class="meta">Developmental Cell · 2023</div>
+    <div class="authors">Tatiana Merle, <span class="me">Sophie Theis</span>, Alain Kamgoué, Emmanuel Martin, Florian Sarron, Guillaume Gay, Emmanuel Farge, Magali Suzanne</div>
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
     
-      <a href="https://doi.org/g96vd4" class="citation-image" aria-label="Curvature-Induced Cell Rearrangements in Biological Tissues">
-        <img src="/images/paper_2023_curvature.jpg" alt="Curvature-Induced Cell Rearrangements in Biological Tissues" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+  
+
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://doi.org/g96vd4" class="citation-title">
-        Curvature-Induced Cell Rearrangements in Biological Tissues
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Yuting Lou, Jean-Francois Rupprecht, Sophie Theis, Tetsuya Hiraiwa, Timothy E. Saunders
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Physical Review Letters</span>
-         · 
-        <span class="citation-date">06 Mar 2023</span>
-         · 
-        <span class="citation-id">doi:10.1103/PhysRevLett.130.108401</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry phys">
+  
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/g96vd4" target="_blank" rel="noopener">Curvature-Induced Cell Rearrangements in Biological Tissues</a></h3>
+    <div class="meta">Physical Review Letters · 2023</div>
+    <div class="authors">Yuting Lou, Jean-Francois Rupprecht, <span class="me">Sophie Theis</span>, Tetsuya Hiraiwa, Timothy E. Saunders</div>
   </div>
 </div>
 
-<h3 id="2022">2022</h3>
+  
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g96vd5" class="citation-image" aria-label="Force-generating apoptotic cells orchestrate avian neural tube bending">
-        <img src="/images/paper_2022_force.jpg" alt="Force-generating apoptotic cells orchestrate avian neural tube bending" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://doi.org/g96vd5" class="citation-title">
-        Force-generating apoptotic cells orchestrate avian neural tube bending
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Daniela Roellig, Sophie Theis, Amsha Proag, Guillaume Allio, Bertrand Bénazéraf, Jérôme Gros, Magali Suzanne
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Developmental Cell</span>
-         · 
-        <span class="citation-date">01 Mar 2022</span>
-         · 
-        <span class="citation-id">doi:10.1016/j.devcel.2022.02.020</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry bio">
+  <div class="year-bubble">2022</div>
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/g96vd5" target="_blank" rel="noopener">Force-generating apoptotic cells orchestrate avian neural tube bending</a></h3>
+    <div class="meta">Developmental Cell · 2022</div>
+    <div class="authors">Daniela Roellig, <span class="me">Sophie Theis</span>, Amsha Proag, Guillaume Allio, Bertrand Bénazéraf, Jérôme Gros, Magali Suzanne</div>
   </div>
 </div>
 
-<h3 id="2021">2021</h3>
-
-<div class="citation-container">
-  <div class="citation">
     
-      <a href="https://doi.org/g96vd6" class="citation-image" aria-label="Tyssue: an epithelium simulation library">
-        <img src="/images/paper_2021_tyssue.jpg" alt="Tyssue: an epithelium simulation library" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+  
+
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://doi.org/g96vd6" class="citation-title">
-        Tyssue: an epithelium simulation library
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Sophie Theis, Magali Suzanne, Guillaume Gay
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Journal of Open Source Software</span>
-         · 
-        <span class="citation-date">07 Jun 2021</span>
-         · 
-        <span class="citation-id">doi:10.21105/joss.02973</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry tools">
+  <div class="year-bubble">2021</div>
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/g96vd6" target="_blank" rel="noopener">Tyssue: an epithelium simulation library</a></h3>
+    <div class="meta">Journal of Open Source Software · 2021</div>
+    <div class="authors">
+<span class="me">Sophie Theis</span>, Magali Suzanne, Guillaume Gay</div>
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
     
-      <a href="https://doi.org/g96vd7" class="citation-image" aria-label="Arp2 3-dependent mechanical control of morphogenetic robustness in an inherently challenging environment">
-        <img src="/images/paper_2021_arp23.jpg" alt="Arp2 3-dependent mechanical control of morphogenetic robustness in an inherently challenging environment" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+  
+
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://doi.org/g96vd7" class="citation-title">
-        Arp2/3-dependent mechanical control of morphogenetic robustness in an inherently challenging environment
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Emmanuel Martin, Sophie Theis, Guillaume Gay, Bruno Monier, Christian Rouvière, Magali Suzanne
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Developmental Cell</span>
-         · 
-        <span class="citation-date">01 Mar 2021</span>
-         · 
-        <span class="citation-id">doi:10.1016/j.devcel.2021.01.005</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry bio">
+  
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/g96vd7" target="_blank" rel="noopener">Arp2/3-dependent mechanical control of morphogenetic robustness in an inherently challenging environment</a></h3>
+    <div class="meta">Developmental Cell · 2021</div>
+    <div class="authors">Emmanuel Martin, <span class="me">Sophie Theis</span>, Guillaume Gay, Bruno Monier, Christian Rouvière, Magali Suzanne</div>
   </div>
 </div>
 
-<h3 id="2019">2019</h3>
+  
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gj7cgh" class="citation-image" aria-label="Mechanical impact of epithelial mesenchymal transition on epithelial morphogenesis in Drosophila">
-        <img src="/images/paper_2019_mechanics.jpg" alt="Mechanical impact of epithelial mesenchymal transition on epithelial morphogenesis in Drosophila" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
+  
+  
     
 
-    <div class="citation-text">
-      
-      
 
-      <a href="https://doi.org/gj7cgh" class="citation-title">
-        Mechanical impact of epithelial−mesenchymal transition on epithelial morphogenesis in Drosophila
-      </a>
 
-      <div class="citation-authors" tabindex="0">
-        Mélanie Gracia, Sophie Theis, Amsha Proag, Guillaume Gay, Corinne Benassayag, Magali Suzanne
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Communications</span>
-         · 
-        <span class="citation-date">04 Jul 2019</span>
-         · 
-        <span class="citation-id">doi:10.1038/s41467-019-10720-0</span>
-      </div>
-
-      
-        
-
-        
-
-        
-      
-    </div>
+<div class="entry bio">
+  <div class="year-bubble">2019</div>
+  <div class="t-card">
+    <h3 style="text-align:center;"><a href="https://doi.org/gj7cgh" target="_blank" rel="noopener">Mechanical impact of epithelial−mesenchymal transition on epithelial morphogenesis in Drosophila</a></h3>
+    <div class="meta">Nature Communications · 2019</div>
+    <div class="authors">Mélanie Gracia, <span class="me">Sophie Theis</span>, Amsha Proag, Guillaume Gay, Corinne Benassayag, Magali Suzanne</div>
   </div>
+</div>
+
+    
+  
+
 </div>
   </section>
 
